@@ -1,0 +1,207 @@
+{
+    "value0": {
+        "flag": true,
+        "i8": -7,
+        "u16": 65000,
+        "i64": -1234567890123,
+        "u64": 18000000000000000000,
+        "f": 1.5,
+        "d": 3.25,
+        "ld": "2.5",
+        "c": 113,
+        "text": "hello cereal",
+        "value0": [
+            0,
+            1,
+            2,
+            255
+        ],
+        "value1": [
+            "alpha",
+            "beta"
+        ],
+        "value2": [
+            true,
+            false,
+            true
+        ],
+        "value3": {
+            "value0": 1,
+            "value1": -2,
+            "value2": 3
+        },
+        "value4": [
+            0.5,
+            -0.25
+        ],
+        "pts": [
+            {
+                "value0": 1,
+                "value1": 2,
+                "value2": 3
+            },
+            {
+                "value0": 4,
+                "value1": 5,
+                "value2": 6
+            }
+        ],
+        "table": [
+            {
+                "key": "k1",
+                "value": {
+                    "value0": "inner",
+                    "value1": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "value2": {
+                        "value0": 10,
+                        "value1": 11,
+                        "value2": 12
+                    }
+                }
+            }
+        ],
+        "ids": [
+            1,
+            2,
+            3
+        ],
+        "counts": [
+            {
+                "key": "y",
+                "value": 2
+            },
+            {
+                "key": "x",
+                "value": 1
+            }
+        ],
+        "pr": {
+            "first": 42,
+            "second": "pair"
+        },
+        "tup": {
+            "tuple_element0": 1,
+            "tuple_element1": 2.0,
+            "tuple_element2": "tuple"
+        },
+        "bs": {
+            "type": 0,
+            "data": 703710
+        },
+        "cx": {
+            "real": 1.0,
+            "imag": -1.0
+        },
+        "dur": {
+            "count": 1500
+        },
+        "opt": {
+            "nullopt": false,
+            "data": "present"
+        },
+        "var": {
+            "index": 2,
+            "data": {
+                "value0": 1,
+                "value1": 1,
+                "value2": 1
+            }
+        },
+        "sp1": {
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "value0": "inner",
+                    "value1": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "value2": {
+                        "value0": 10,
+                        "value1": 11,
+                        "value2": 12
+                    }
+                }
+            }
+        },
+        "sp2": {
+            "ptr_wrapper": {
+                "id": 1
+            }
+        },
+        "up": {
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 9,
+                    "value1": 8,
+                    "value2": 7
+                }
+            }
+        },
+        "wp": {
+            "ptr_wrapper": {
+                "id": 1
+            }
+        },
+        "poly": {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "fz::Derived",
+            "ptr_wrapper": {
+                "id": 2147483650,
+                "data": {
+                    "value0": {
+                        "id": 5
+                    },
+                    "label": "derived",
+                    "values": [
+                        1.0,
+                        2.0
+                    ]
+                }
+            }
+        },
+        "value5": {
+            "cereal_class_version": 1,
+            "name": "ver",
+            "v": 3
+        },
+        "value6": {
+            "bytes": "ABEiM0RVZneImaq7zN3u/w=="
+        },
+        "value7": -99,
+        "value8": [
+            {
+                "value0": "inner",
+                "value1": [
+                    7,
+                    8,
+                    9
+                ],
+                "value2": {
+                    "value0": 10,
+                    "value1": 11,
+                    "value2": 12
+                }
+            },
+            {
+                "value0": "inner",
+                "value1": [
+                    7,
+                    8,
+                    9
+                ],
+                "value2": {
+                    "value0": 10,
+                    "value1": 11,
+                    "value2": 12
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+project: savantenvs/cereal
+target: fuzz_json
+image: $MAYHEM_DOCKER_IMAGE
+duration: 1200
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_json/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_json
+    libfuzzer: true
+    timeout: 5

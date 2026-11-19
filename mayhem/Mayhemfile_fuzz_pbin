@@ -1,0 +1,11 @@
+project: savantenvs/cereal
+target: fuzz_pbin
+image: $MAYHEM_DOCKER_IMAGE
+duration: 1200
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_pbin/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pbin
+    libfuzzer: true
+    timeout: 5
